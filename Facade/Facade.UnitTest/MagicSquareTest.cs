@@ -7,13 +7,13 @@ namespace Tests
     public class MagicSquareTest
     {
         private Verifier magicSquareVerifier;
-        private MagicSquareGenerator magicSquareGenerator;
+        private MagicSquareFacade magicSquareGenerator;
 
         [SetUp]
         public void Setup()
         {
             magicSquareVerifier = new Verifier();
-            magicSquareGenerator = new MagicSquareGenerator();
+            magicSquareGenerator = new MagicSquareFacade();
         }
 
         [TestCase(2)]

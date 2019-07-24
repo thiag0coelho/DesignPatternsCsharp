@@ -9,7 +9,7 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            var test = new MagicSquareGenerator();
+            var test = new MagicSquareFacade();
             var square = test.Generate(4);
 
             Console.WriteLine(SquareToString(square));
