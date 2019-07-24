@@ -18,7 +18,7 @@ namespace Tests
         }
 
         [TestCase(10)]
-        public void When_personAgeBelow18_expect_Drinking(int age)
+        public void When_personAgeBelow18(int age)
         {
             var person = new Person(age);
             var personProxy = new ResponsiblePersonProxy(person);
